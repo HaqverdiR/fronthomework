@@ -17,12 +17,31 @@
 
     <!-- header side -->
     <header>
-        <div class="container d-flex justify-content-between hearder-upper">
-            <div>
-                <i class="fas fa-phone-square"></i><span class="align-top">Hotline:(+100) 123 456 7890</span>
-            </div>
-            <div>
-                <span class="align-top">Welcome to our market!</span>
+        <div class="container-fluid hearder-upper">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fas fa-phone-square"></i>
+                    <span class="align-top">Hotline:(+100) 123 456 7890</span>
+                </div>
+                <div class="col-2 offset-1">
+                    <span class="align-top">Welcome to our market!</span>
+                </div>
+                <div class="col-4 offset-2 ">
+                    <div class="dropdown kursStyle d-inline">
+                        <a class="dropdown-toggle " id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">USD</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">USD</a>
+                            <a class="dropdown-item" href="#">EUR</a>
+                        </div>
+                    </div>
+                    <div class="dropdown kursStyle d-inline">
+                        <a class="dropdown-toggle " id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/united-kingdom.svg" alt="">&nbsp;ENGLISH</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">USD</a>
+                            <a class="dropdown-item" href="#">EUR</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="container d-flex justify-content-between mt-4 mb-2">
@@ -30,8 +49,7 @@
             <!-- search start -->
             <div class="input-group-sm  mb-3 d-flex">
                 <div class="input-group-prepend">
-                    <button class="btn btn-light dropdown-toggle " type="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Dropdown</button>
+                    <button class="btn btn-light dropdown-toggle " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="#">Action</a>
                         <a class="dropdown-item" href="#">Another action</a>
@@ -40,7 +58,7 @@
                         <a class="dropdown-item" href="#">Separated link</a>
                     </div>
                 </div>
-                <input type="text" class="form-control" size="100" placeholder="Type to saerch…" >
+                <input type="text" class="form-control" size="100" placeholder="Type to saerch…">
             </div>
             <!-- search end -->
             <i class="fas fa-search"></i>
@@ -79,10 +97,11 @@
 
 
     <!-- footer side -->
-    <footer></footer>
+    <footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous"></script>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"

@@ -25,14 +25,31 @@ body {
 header {
   background-color: #689f38;
   color: #ffffff;
-  padding: 5px 0;
+  padding: 5px 30px;
 }
 header span {
   font-size: 14px;
   margin-bottom: 10px;
+  font-weight: 400;
 }
 .hearder-upper {
   border-bottom: 1px solid white;
+}
+.hearder-upper a {
+  font-size: 14px;
+  font-weight: lighter;
+  margin: 1px;
+}
+img {
+  width: 18px;
+  margin: 1px;
+}
+.kursStyle:hover {
+  background-color: #5c8a34;
+  margin: 0;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  border: 1px solid #5c8a34;
 }
 i {
   font-size: 20px;

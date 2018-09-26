@@ -6,20 +6,41 @@ body{
 header{
 	background-color: @mainColor1;
 	color: @heaFootColor;
-	padding: 5px 0;
+	padding: 5px 30px;
 		span{
-			font-size:14px;
+			font-size: @fontSize14;
 			margin-bottom: 10px;
-		
+			font-weight: 400;
 			}
 }
 .hearder-upper{
 	border-bottom: 1px solid white;
+		a{
+			font-size:@fontSize14;	
+			font-weight: lighter;	
+			margin: 1px;
 }
-
+		a:hover{
+			
+		}
+}
+		img{
+			width: 18px;
+			margin: 1px;
+		}
+.kursStyle{
+	
+}	
+.kursStyle:hover{
+	background-color: #5c8a34;
+	margin:0;
+	box-sizing: content-box;
+	border: 1px solid #5c8a34;
+}
  i{
-	 font-size: 20px;
+	 font-size: @fontSize14+6;
  }
 .logo{
-	font-size: 24px;
+	font-size: @fontSize14*2-4;
 }
+
